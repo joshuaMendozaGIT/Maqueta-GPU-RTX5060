@@ -34,6 +34,7 @@ La RTX 5060 incorpora **8 GB de memoria GDDR7** en un bus de **128 bits**. La me
 | Interfaz | PCIe 5.0 ×8 |
 | TDP (referencia) | 150 W (145 W en modelos personalizados) |
 
+<<<<<<< HEAD:Index.md
 > **Nota sobre el TDP:** El valor de referencia de NVIDIA es de **150 W**, aunque muchos ensambladores (ASUS, Gigabyte, Palit, etc.) comercializan modelos con un TDP configurado en **145 W**.[reference:4][reference:5]
 
 ---
@@ -60,3 +61,6 @@ La versión de portátil también reduce la cantidad de RT Cores y Tensor Cores 
 ---
 
 *Página creada para la maqueta de arquitectura de la GPU RTX 5060. La información técnica se basa en especificaciones públicas de NVIDIA y análisis de medios especializados.*
+=======
+La misma base Blackwell se utiliza en la **RTX 5060 para portátil**, aunque con **3,328 núcleos CUDA** en lugar de 3,840. Esta reducción responde a las limitaciones de energía y refrigeración de los equipos portátiles, y es un ejemplo de cómo una arquitectura se ajusta a distintos formatos sin perder su identidad técnica.
+>>>>>>> cde6c990d29e75cebb24da5ba89e88954c247f12:index.md
