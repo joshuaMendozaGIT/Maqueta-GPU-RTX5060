@@ -1,0 +1,88 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* --- Paleta de Colores NVIDIA --- */
+:root {
+  --nvidia-bg: #000000;
+  --nvidia-text: #ffffff;
+  --nvidia-green: #76b900;
+  --nvidia-border: #333333;
+  --nvidia-text-muted: #b0b0b0;
+}
+
+/* --- Estilos Globales --- */
+body {
+  background-color: var(--nvidia-bg) !important;
+  color: var(--nvidia-text) !important;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+}
+
+/* --- Contenedor Principal --- */
+.wrapper, .inner, header, section, footer {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.wrapper {
+  border: none !important;
+}
+
+/* --- Encabezados y Enlaces --- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--nvidia-text) !important;
+  border-bottom: 2px solid var(--nvidia-border) !important;
+  padding-bottom: 0.3em;
+}
+
+a {
+  color: var(--nvidia-green) !important;
+  text-decoration: none !important;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+a:hover {
+  border-bottom-color: var(--nvidia-green) !important;
+}
+
+/* --- Tablas --- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid var(--nvidia-border) !important;
+  padding: 10px;
+}
+th {
+  background-color: #111111;
+  color: var(--nvidia-green);
+}
+
+/* --- Código y Bloques Preformateados --- */
+code, pre {
+  background-color: #111111 !important;
+  color: var(--nvidia-green) !important;
+  border: 1px solid var(--nvidia-border) !important;
+  border-radius: 2px !important;
+}
+
+/* --- Imágenes --- */
+img {
+  border: 1px solid var(--nvidia-border);
+  border-radius: 2px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- Botones (para futuros enlaces) --- */
+.btn {
+  background-color: transparent !important;
+  color: var(--nvidia-green) !important;
+  border: 2px solid var(--nvidia-green) !important;
+  border-radius: 2px !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.btn:hover {
+  background-color: var(--nvidia-green) !important;
+  color: var(--nvidia-bg) !important;
+}
