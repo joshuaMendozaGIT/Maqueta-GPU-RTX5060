@@ -18,3 +18,5 @@ Hacer esto con Núcleos CUDA tradicionales requiere una cantidad enorme de cálc
 
 **La solución de los RT Cores:**
 Los RT Cores tienen la capacidad de calcular intersecciones de rayos con triángulos (la base de los modelos 3D) de forma ultrarrápida. Esto permite que juegos como *Cyberpunk 2077* o *Alan Wake 2* tengan reflejos precisos en el agua, sombras realistas y refracciones de luz sin que la tarjeta colapse, trabajando en conjunto con los Tensor Cores (DLSS) para mantener la fluidez.
+
+**RT Cores de 4.ª Generación y Mega Geometry:** Los RT Cores de la RTX 5060 no solo calculan la intersección de rayos con triángulos. La arquitectura Blackwell introduce **Mega Geometry**, una tecnología que permite a los RT Cores manejar escenas con una cantidad masiva de geometría (como los micromodelos de *Unreal Engine 5 Nanite*), acelerando el trazado de rayos en escenas complejas sin penalizar el rendimiento. [reference:25][reference:26]

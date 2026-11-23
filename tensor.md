@@ -19,3 +19,5 @@ Además, permiten la **Generación de Fotogramas**: la tarjeta inventa fotograma
 
 **En productividad:**
 Si usas herramientas como Stable Diffusion (IA generativa), Adobe Premiere o Microsoft Copilot, los Tensor Cores realizan estas tareas hasta 10 veces más rápido que los núcleos tradicionales.
+
+**Precisión y eficiencia (FP4, FP6, FP8):** Los Tensor Cores de 5.ª generación de la RTX 5060 no solo son más rápidos, sino que soportan nuevos formatos de datos de baja precisión. El formato **FP4** (4 bits) es especialmente revolucionario para la IA: permite duplicar el rendimiento en comparación con FP8, con una pérdida de precisión mínima para muchas tareas. Esto es lo que hace posible que DLSS 4 pueda generar múltiples fotogramas de forma tan eficiente. [reference:23][reference:24]

@@ -19,3 +19,5 @@ En la RTX 5060, estos 3,840 núcleos no están sueltos; están agrupados en **30
 **¿Para qué se usan?**
 *   **Gráficos 3D:** Sombreado (shading), cálculo de vértices y texturizado.
 *   **Cómputo General (GPGPU):** Aceleran tareas en programas de edición de video, renderizado 3D (como Blender) y simulaciones científicas.
+
+**Su papel en el pipeline:** Los Núcleos CUDA son los "obreros" del pipeline gráfico. Ejecutan los *shaders* (programas) de vértices y píxeles. En la arquitectura Blackwell, también pueden ejecutar *shaders neuronales*, trabajando en conjunto con los Tensor Cores para mezclar el renderizado tradicional con el de IA.

@@ -18,3 +18,5 @@ La tarjeta utiliza la interfaz PCI Express 5.0, pero configurada eléctricamente
 
 **Consumo:**
 Su TDP (Thermal Design Power) es de **145 W**. Esto significa que no requiere conectores de alimentación masivos y puede funcionar perfectamente con fuentes de alimentación de 550 W, lo que la hace ideal para actualizar computadoras sin cambiar la fuente.
+
+**La caché L2: El centro de comunicaciones:** Todos los datos que viajan entre los SMs y la memoria GDDR7 pasan por la **caché L2**. En Blackwell, la L2 es un bloque central masivo. En el caso de la RTX 5060, esta caché es fundamental para mantener a los 30 SMs alimentados con datos, reduciendo la latencia y actuando como un "puente" de alta velocidad entre los distintos GPCs. [reference:27][reference:28]
