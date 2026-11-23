@@ -7,7 +7,7 @@
   --nvidia-bg: #000000;
   --nvidia-text: #ffffff;
   --nvidia-green: #76b900;
-  --nvidia-border: #e4e4e4;
+  --nvidia-border: #333333;
   --nvidia-text-muted: #b0b0b0;
 }
 
@@ -86,3 +86,18 @@ img {
   background-color: var(--nvidia-green) !important;
   color: var(--nvidia-bg) !important;
 }
+
+/* --- Estilo para Negritas --- */
+strong, b {
+  font-weight: 800 !important; /* Hace la fuente mucho más gruesa */
+  color: #ffffff !important; /* Blanco puro */
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.3); /* Un sutil brillo blanco */
+}
+
+/* Opcional: Si quieres que las negritas resalten en verde NVIDIA, descomenta estas líneas y borra las de arriba:
+strong, b {
+  font-weight: 800 !important;
+  color: var(--nvidia-green) !important; 
+  text-shadow: 0px 0px 6px rgba(118, 185, 0, 0.4); 
+}
+*/
