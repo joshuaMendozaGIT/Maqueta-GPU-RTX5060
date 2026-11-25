@@ -1,6 +1,6 @@
 # Núcleos CUDA
 
-[⬅ Volver al inicio](index.md)
+<a href="index.html" style="display: inline-block; padding: 10px 15px; background-color: #0b2e59; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 20px;">⬅ Volver al Inicio</a>
 
 ## Información General
 Los **Núcleos CUDA** son el motor principal de la tarjeta gráfica. La RTX 5060 incorpora un total de **3,840 Núcleos CUDA**, los cuales se encargan de ejecutar los cálculos matemáticos para renderizar los gráficos, procesar la física y realizar tareas de cómputo general.

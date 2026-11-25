@@ -1,31 +1,61 @@
 # Arquitectura de la GPU NVIDIA RTX 5060 (8 GB GDDR7)
 
-Bienvenido a la documentación técnica interactiva de la maqueta sobre la **NVIDIA GeForce RTX 5060**. Esta plataforma complementa la maqueta física y, a través de los códigos QR, te guiará por el interior de una de las GPU más representativas de la arquitectura **NVIDIA Blackwell**.
+<div class="logos-bar">
+  <img src="assets/images/logo-tecnm.png" alt="TecNM">
+  <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
+</div>
 
-## Resumen del Modelo
-La RTX 5060 es una tarjeta gráfica de escritorio fabricada en un proceso de **4 nm**. Su diseño se optimiza para el **renderizado neuronal**, combinando el procesamiento gráfico tradicional con la inteligencia artificial para ofrecer un rendimiento sólido en juegos, creación de contenido y cargas de trabajo de IA.
+<div class="hero">
+  <h1>Arquitectura de la GPU NVIDIA RTX 5060</h1>
+  <p>Proyecto de Maqueta y Documentación Técnica - Arquitectura de Computadoras</p>
+  <img class="gpu-img" src="assets/images/gpu-hero.jpg" alt="NVIDIA RTX 5060">
+</div>
 
-| Especificación General | Detalle |
-| :--- | :--- |
-| **Arquitectura** | NVIDIA Blackwell |
-| **Memoria** | 8 GB GDDR7 |
-| **Interfaz** | PCIe 5.0 x8 |
-| **TDP** | 145 W |
+## Resumen del Proyecto
 
----
+Bienvenido a la plataforma interactiva de la maqueta sobre la **NVIDIA GeForce RTX 5060**, basada en la arquitectura **NVIDIA Blackwell**. Esta documentación ha sido diseñada para complementar el modelo físico, permitiendo a los usuarios escanear los códigos QR y explorar el detalle técnico de cada componente.
 
-## Explora los Componentes (Escanea los QR de la maqueta)
+<div class="grid-container">
 
-*   **[Núcleos CUDA](cuda.md)** — El motor principal del procesamiento gráfico.
-*   **[Tensor Cores](tensor.md)** — La potencia detrás de la inteligencia artificial y DLSS 4.
-*   **[RT Cores](rt.md)** — El hardware dedicado al trazado de rayos en tiempo real.
-*   **[Memoria y Conexión](memoria.md)** — El subsistema de memoria GDDR7 y la conectividad PCIe.
+  <a href="cuda.html" class="card">
+    <h3>🧠 Núcleos CUDA</h3>
+    <p>El motor principal del procesamiento gráfico. Descubre cómo operan los 3,840 núcleos de la RTX 5060.</p>
+  </a>
 
-## Arquitectura en Profundidad
+  <a href="tensor.html" class="card">
+    <h3>🤖 Tensor Cores</h3>
+    <p>La potencia detrás de la inteligencia artificial, el DLSS 4 y el rendimiento de 614 AI TOPS.</p>
+  </a>
 
-*   **[Evolución de la Arquitectura](evolucion.md)** — Un recorrido desde Turing hasta Blackwell y cómo cada generación sentó las bases de la RTX 5060.
-*   **[Jerarquía Interna](jerarquia.md)** — Cómo se organizan los componentes: GPC, TPC y SM.
-*   **[Flujo de Trabajo](flujo-trabajo.md)** — El viaje de un dato: desde el procesador hasta la pantalla, y cómo la IA se integra en el proceso.
+  <a href="rt.html" class="card">
+    <h3>💡 RT Cores</h3>
+    <p>El hardware dedicado al trazado de rayos en tiempo real y la tecnología Mega Geometry.</p>
+  </a>
 
----
-*Página principal de la maqueta de arquitectura de la GPU RTX 5060.*
+  <a href="memoria.html" class="card">
+    <h3>⚡ Memoria y Conexión</h3>
+    <p>El subsistema de memoria GDDR7, el ancho de banda de 448 GB/s y la interfaz PCIe 5.0.</p>
+  </a>
+
+  <a href="jerarquia.html" class="card">
+    <h3>🏗️ Jerarquía Interna</h3>
+    <p>Cómo se organizan los componentes internamente: GPC, TPC y los 30 SMs de la tarjeta.</p>
+  </a>
+
+  <a href="flujo-trabajo.html" class="card">
+    <h3>🔄 Flujo de Trabajo</h3>
+    <p>El viaje de un dato: desde que el CPU envía la instrucción hasta la renderización en pantalla.</p>
+  </a>
+
+  <a href="evolucion.html" class="card">
+    <h3>🕰️ Evolución Histórica</h3>
+    <p>El camino de NVIDIA desde Turing hasta Blackwell y cómo llegamos a esta arquitectura.</p>
+  </a>
+
+</div>
+
+<br>
+<div style="text-align: center; font-size: 0.9em; color: #666; margin-top: 40px;">
+  <p><strong>Tecnológico Nacional de México - Campus Celaya</strong><br>
+  Departamento de Sistemas y Computación</p>
+</div>

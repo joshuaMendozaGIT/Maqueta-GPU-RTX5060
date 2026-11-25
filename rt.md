@@ -1,6 +1,6 @@
 # RT Cores (4.ª Generación)
 
-[⬅ Volver al inicio](index.md)
+<a href="index.html" style="display: inline-block; padding: 10px 15px; background-color: #0b2e59; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 20px;">⬅ Volver al Inicio</a>
 
 ## Información General
 Los **RT Cores** (Ray Tracing Cores) son unidades de hardware dedicadas exclusivamente a calcular el trazado de rayos en tiempo real. La RTX 5060 equipa la **4.ª Generación** de estos núcleos, alcanzando una potencia de **58 TFLOPS**.

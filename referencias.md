@@ -1,6 +1,6 @@
 # Referencias Técnicas
 
-[⬅ Volver al inicio](index.md)
+<a href="index.html" style="display: inline-block; padding: 10px 15px; background-color: #0b2e59; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 20px;">⬅ Volver al Inicio</a>
 
 Esta página reúne las fuentes consultadas para validar las especificaciones y los conceptos arquitectónicos de la GeForce RTX 5060 (8 GB) que aparecen en la documentación de la maqueta.
 

@@ -1,6 +1,6 @@
 # Evolución de la Arquitectura NVIDIA
 
-[⬅ Volver al inicio](index.md)
+<a href="index.html" style="display: inline-block; padding: 10px 15px; background-color: #0b2e59; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 20px;">⬅ Volver al Inicio</a>
 
 La RTX 5060 no es un producto aislado; es el resultado de más de una década de evolución. Cada generación de arquitectura NVIDIA introdujo innovaciones clave que, acumuladas, dan forma a la GPU que estudiamos.
 

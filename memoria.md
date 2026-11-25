@@ -1,6 +1,6 @@
 # Memoria y Arquitectura
 
-[⬅ Volver al inicio](index.md)
+<a href="index.html" style="display: inline-block; padding: 10px 15px; background-color: #0b2e59; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 20px;">⬅ Volver al Inicio</a>
 
 ## Información General
 El subsistema de memoria determina la velocidad a la que la GPU puede leer y escribir datos. La RTX 5060 cuenta con **8 GB de memoria GDDR7**, un bus de **128 bits** y un ancho de banda de **448 GB/s**, empaquetado en un diseño térmico de **145 W**.

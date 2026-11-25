@@ -1,6 +1,6 @@
 # Flujo de Trabajo y Procesos
 
-[⬅ Volver al inicio](index.md)
+<a href="index.html" style="display: inline-block; padding: 10px 15px; background-color: #0b2e59; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 20px;">⬅ Volver al Inicio</a>
 
 Para entender la arquitectura, es útil seguir el "viaje" de un dato. El proceso se puede dividir en dos grandes vertientes que trabajan en conjunto: el **procesamiento gráfico tradicional** y el **procesamiento de IA**.
 
