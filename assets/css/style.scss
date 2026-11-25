@@ -164,3 +164,31 @@ details[open] {
   background: #fafafa;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+
+/* --- Marca de Agua Institucional --- */
+body::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centra la imagen perfectamente */
+  width: 60vw; /* Ocupa el 60% del ancho de la pantalla */
+  height: 60vw; 
+  
+  /* AQUÍ PONES LA RUTA DE TU LOGO */
+  background-image: url('/assets/images/logo-itcelaya.png'); 
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+  opacity: 0.04; /* Opacidad del 4% (súper sutil). Súbelo a 0.08 si quieres que se note más */
+  z-index: 0; /* Se coloca detrás del contenido */
+  pointer-events: none; /* Permite hacer clic en los enlaces que estén encima */
+}
+
+/* Aseguramos que todo el contenido de la página esté POR ENCIMA de la marca de agua */
+.wrapper {
+  position: relative;
+  z-index: 1;
+}
