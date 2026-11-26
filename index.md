@@ -1,6 +1,5 @@
 # Arquitectura de la GPU NVIDIA RTX 5060 (8 GB GDDR7)
 
-<!-- PORTADA DE BIENVENIDA -->
 <!-- PORTADA DE BIENVENIDA AUTOMÁTICA (Solo primera visita) -->
 <div id="splash-screen">
   <img src="assets/images/logo-tecnm.png" alt="TecNM" class="splash-logo">
@@ -28,21 +27,6 @@
   }
 </script>
 <!-- FIN DE LA PORTADA -->
-
-<div class="logos-bar">
-  <img src="assets/images/logo-tecnm.png" alt="TecNM">
-  <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
-</div>
-
-<div class="hero">
-<!-- FIN DE LA PORTADA -->
-
-<div class="logos-bar">
-  <img src="assets/images/logo-tecnm.png" alt="TecNM">
-  <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
-</div>
-
-<div class="hero">
 
 <div class="logos-bar">
   <img src="assets/images/logo-tecnm.png" alt="TecNM">
