@@ -182,7 +182,7 @@ body::before {
   background-position: center;
   background-size: contain;
   
-  opacity: 0.04; /* Opacidad del 4% (súper sutil). Súbelo a 0.08 si quieres que se note más */
+  opacity: 0.25; /* Opacidad del 4% (súper sutil). Súbelo a 0.08 si quieres que se note más */
   z-index: 0; /* Se coloca detrás del contenido */
   pointer-events: none; /* Permite hacer clic en los enlaces que estén encima */
 }
@@ -193,60 +193,30 @@ body::before {
   z-index: 1;
 }
 
-/* --- Portada de Bienvenida (Splash Screen) --- */
+/* --- Portada de Bienvenida Automática (Splash Screen) --- */
 #splash-screen {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: var(--bg-color);
-  z-index: 9999; /* Asegura que esté por encima de todo */
+  background-color: #ffffff; /* Fondo blanco para que resalte el logo azul */
+  z-index: 9999;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  transition: opacity 0.5s ease;
+  transition: opacity 1s ease; /* Transición suave de 1 segundo */
 }
 
-.splash-content {
-  background: white;
-  padding: 50px 40px;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  border-top: 8px solid var(--tecnm-blue);
-  max-width: 600px;
+.splash-logo {
+  width: 350px;
+  max-width: 80vw;
+  animation: aparecerLogo 2s ease-out forwards;
 }
 
-.splash-content img {
-  height: 80px;
-  margin: 0 15px;
-  object-fit: contain;
-}
-
-.splash-content h2 {
-  color: var(--tecnm-blue) !important;
-  margin-top: 30px;
-  border-bottom: none !important;
-}
-
-.btn-ingresar {
-  background-color: var(--iteclaya-green);
-  color: white;
-  padding: 15px 40px;
-  font-size: 1.2em;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 4px 10px rgba(0,122,51,0.3);
-}
-
-.btn-ingresar:hover {
-  background-color: #005c26;
-  transform: scale(1.05);
+@keyframes aparecerLogo {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
 }
 
 /* --- Barra Institucional para Subpáginas --- */

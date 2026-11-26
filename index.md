@@ -1,19 +1,40 @@
 # Arquitectura de la GPU NVIDIA RTX 5060 (8 GB GDDR7)
 
 <!-- PORTADA DE BIENVENIDA -->
+<!-- PORTADA DE BIENVENIDA AUTOMÁTICA (Solo primera visita) -->
 <div id="splash-screen">
-  <div class="splash-content">
-    <div>
-      <img src="assets/images/logo-tecnm.png" alt="TecNM">
-      <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
-    </div>
-    <h2>Proyecto: Maqueta de Arquitectura GPU</h2>
-    <p style="color: #666; font-size: 1.1em;">NVIDIA RTX 5060 - Arquitectura de Computadoras</p>
-    <button class="btn-ingresar" onclick="document.getElementById('splash-screen').style.opacity = '0'; setTimeout(() => document.getElementById('splash-screen').style.display = 'none', 500);">
-      Ingresar a la Documentación ➔
-    </button>
-  </div>
+  <img src="assets/images/logo-tecnm.png" alt="TecNM" class="splash-logo">
 </div>
+
+<script>
+  // Verificamos si el usuario ya vio la portada en esta sesión
+  if (sessionStorage.getItem('splashVisto') !== 'true') {
+    // Si es la primera vez, mostramos el logo y esperamos 2.5 segundos
+    setTimeout(function() {
+      var splash = document.getElementById('splash-screen');
+      if (splash) {
+        splash.style.opacity = '0'; // Inicia el desvanecimiento
+        setTimeout(function() {
+          splash.style.display = 'none'; // Lo oculta por completo
+        }, 1000); // Espera a que termine la transición de CSS (1 segundo)
+      }
+    }, 2500); 
+    
+    // Marcamos que ya se vio la portada
+    sessionStorage.setItem('splashVisto', 'true');
+  } else {
+    // Si ya la vio, la ocultamos de inmediato sin mostrar nada
+    document.getElementById('splash-screen').style.display = 'none';
+  }
+</script>
+<!-- FIN DE LA PORTADA -->
+
+<div class="logos-bar">
+  <img src="assets/images/logo-tecnm.png" alt="TecNM">
+  <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
+</div>
+
+<div class="hero">
 <!-- FIN DE LA PORTADA -->
 
 <div class="logos-bar">
