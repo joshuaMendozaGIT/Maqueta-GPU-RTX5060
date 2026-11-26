@@ -192,3 +192,99 @@ body::before {
   position: relative;
   z-index: 1;
 }
+
+/* --- Portada de Bienvenida (Splash Screen) --- */
+#splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  z-index: 9999; /* Asegura que esté por encima de todo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: opacity 0.5s ease;
+}
+
+.splash-content {
+  background: white;
+  padding: 50px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  border-top: 8px solid var(--tecnm-blue);
+  max-width: 600px;
+}
+
+.splash-content img {
+  height: 80px;
+  margin: 0 15px;
+  object-fit: contain;
+}
+
+.splash-content h2 {
+  color: var(--tecnm-blue) !important;
+  margin-top: 30px;
+  border-bottom: none !important;
+}
+
+.btn-ingresar {
+  background-color: var(--iteclaya-green);
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0,122,51,0.3);
+}
+
+.btn-ingresar:hover {
+  background-color: #005c26;
+  transform: scale(1.05);
+}
+
+/* --- Barra Institucional para Subpáginas --- */
+.header-institucional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  border-bottom: 3px solid var(--tecnm-blue);
+}
+
+.mini-logos {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.mini-logos img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.btn-volver {
+  display: inline-block; 
+  padding: 8px 15px; 
+  background-color: var(--tecnm-blue); 
+  color: white !important; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  font-weight: bold;
+  font-size: 0.9em;
+  transition: background 0.3s;
+}
+
+.btn-volver:hover {
+  background-color: #061a33;
+}

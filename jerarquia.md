@@ -1,6 +1,12 @@
 # Jerarquía Interna de la GPU
 
-<a href="index.html" style="display: inline-block; padding: 10px 15px; background-color: #0b2e59; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 20px;">⬅ Volver al Inicio</a>
+<div class="header-institucional">
+  <div class="mini-logos">
+    <img src="assets/images/logo-tecnm.png" alt="TecNM">
+    <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
+  </div>
+  <a href="index.html" class="btn-volver">⬅ Volver al Inicio</a>
+</div>
 
 <div class="stat-box">
   <h2>3 Niveles</h2>

@@ -1,5 +1,28 @@
 # Arquitectura de la GPU NVIDIA RTX 5060 (8 GB GDDR7)
 
+<!-- PORTADA DE BIENVENIDA -->
+<div id="splash-screen">
+  <div class="splash-content">
+    <div>
+      <img src="assets/images/logo-tecnm.png" alt="TecNM">
+      <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
+    </div>
+    <h2>Proyecto: Maqueta de Arquitectura GPU</h2>
+    <p style="color: #666; font-size: 1.1em;">NVIDIA RTX 5060 - Arquitectura de Computadoras</p>
+    <button class="btn-ingresar" onclick="document.getElementById('splash-screen').style.opacity = '0'; setTimeout(() => document.getElementById('splash-screen').style.display = 'none', 500);">
+      Ingresar a la Documentación ➔
+    </button>
+  </div>
+</div>
+<!-- FIN DE LA PORTADA -->
+
+<div class="logos-bar">
+  <img src="assets/images/logo-tecnm.png" alt="TecNM">
+  <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
+</div>
+
+<div class="hero">
+
 <div class="logos-bar">
   <img src="assets/images/logo-tecnm.png" alt="TecNM">
   <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">

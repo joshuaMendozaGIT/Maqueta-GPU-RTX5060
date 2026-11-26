@@ -1,6 +1,12 @@
 # Tensor Cores (5.ª Generación)
 
-<a href="index.html" style="display: inline-block; padding: 10px 15px; background-color: #0b2e59; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-bottom: 20px;">⬅ Volver al Inicio</a>
+<div class="header-institucional">
+  <div class="mini-logos">
+    <img src="assets/images/logo-tecnm.png" alt="TecNM">
+    <img src="assets/images/logo-itcelaya.png" alt="ITCelaya">
+  </div>
+  <a href="index.html" class="btn-volver">⬅ Volver al Inicio</a>
+</div>
 
 <div class="stat-box">
   <h2>614 AI TOPS</h2>
@@ -10,6 +16,7 @@
 <img src="images/tensor_cores.jpg" alt="Esquema de Tensor Cores e IA" class="img-componente">
 
 ## Información General
+
 Los **Tensor Cores** son procesadores especializados diseñados exclusivamente para acelerar la Inteligencia Artificial (IA). La RTX 5060 cuenta con la **5.ª Generación** de estos núcleos. A diferencia de los Núcleos CUDA, realizan **operaciones de matrices** (multiplicación y suma de grandes bloques de datos) en un solo paso, el lenguaje nativo de las redes neuronales.
 
 ---
